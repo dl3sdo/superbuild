@@ -1,6 +1,6 @@
 # This file is part of OpenOrienteering.
 
-# Copyright 2016-2020 Kai Pastor
+# Copyright 2016-2020, 2025 Kai Pastor
 #
 # Redistribution and use is allowed according to the terms of the BSD license:
 #
@@ -29,9 +29,9 @@
 
 set(version        8.39)
 set(download_hash  SHA256=b858099f82483031ee02092711689e7245586ada49e534a06e678b8ea9549e8b)
-set(patch_version  ${version}-12)
-set(patch_hash     SHA256=ee193ddee446f0bdb966fca5987ef871da7a528a473304285619988102371c4c)
-set(base_url       https://snapshot.debian.org/archive/debian/20190307T215729Z/pool/main/p/pcre3)
+set(patch_version  ${version}-15)
+set(patch_hash     SHA256=e596e7ad1d4e60af4b9655b1582a0ef765aea1e09ce2efa031611d03b1353c67)
+set(base_url       https://snapshot.debian.org/archive/debian/20251027T145034Z/pool/main/p/pcre3)
 
 
 option(USE_SYSTEM_PCRE3 "Use the system pcre3 if possible" ON)
