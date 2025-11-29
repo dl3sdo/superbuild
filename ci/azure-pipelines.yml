@@ -46,6 +46,7 @@ jobs:
   timeoutInMinutes: 180
   dependsOn: Source
   variables:
+    CMAKE_POLICY_VERSION_MINIMUM: 3.5
     IMAGE_NAME: 'macOS-14'
     MACOSX_DEPLOYMENT_TARGET: 11.7
     SUPERBUILD_INSTALL_DIR: $(HOME)/superbuild
@@ -119,6 +120,7 @@ jobs:
   timeoutInMinutes: 180
   dependsOn: Android_aarch64
   variables:
+    CMAKE_POLICY_VERSION_MINIMUM: 3.5
     IMAGE_NAME: 'macOS-14'
     SUPERBUILD_INSTALL_DIR: $(HOME)/superbuild
     TARGET: armv7a-linux-androideabi
@@ -149,6 +151,7 @@ jobs:
   timeoutInMinutes: 180
   dependsOn: Source
   variables:
+    CMAKE_POLICY_VERSION_MINIMUM: 3.5
     IMAGE_NAME: 'macOS-14'
     SUPERBUILD_INSTALL_DIR: $(HOME)/superbuild
     TARGET: aarch64-linux-android
@@ -179,6 +182,7 @@ jobs:
   timeoutInMinutes: 180
   dependsOn: Source
   variables:
+    CMAKE_POLICY_VERSION_MINIMUM: 3.5
     IMAGE_NAME: 'macOS-14'
     SUPERBUILD_INSTALL_DIR: $(HOME)/superbuild
     TARGET: i686-linux-android
@@ -209,6 +213,7 @@ jobs:
   timeoutInMinutes: 180
   dependsOn: Android_x86
   variables:
+    CMAKE_POLICY_VERSION_MINIMUM: 3.5
     IMAGE_NAME: 'macOS-14'
     SUPERBUILD_INSTALL_DIR: $(HOME)/superbuild
     TARGET: x86_64-linux-android
