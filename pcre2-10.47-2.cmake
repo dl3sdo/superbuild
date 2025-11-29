@@ -1,6 +1,6 @@
 # This file is part of OpenOrienteering.
 
-# Copyright 2016-2019 Kai Pastor
+# Copyright 2016-2020, 2025 Kai Pastor
 #
 # Redistribution and use is allowed according to the terms of the BSD license:
 #
@@ -27,11 +27,11 @@
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 # THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-set(version        10.32)
-set(download_hash  SHA256=9ca9be72e1a04f22be308323caa8c06ebd0c51efe99ee11278186cafbc4fe3af)
-set(patch_version  ${version}-5)
-set(patch_hash     SHA256=bfe23d2661bf5727a10a1c1e49660c35afc0a4ad1c151bdcefb7c5a52e71e685)
-set(base_url       https://snapshot.debian.org/archive/debian/20190326T041411Z/pool/main/p/pcre2)
+set(version        10.47)
+set(download_hash  SHA256=c08ae2388ef333e8403e670ad70c0a11f1eed021fd88308d7e02f596fcd9dc16)
+set(patch_version  ${version}-2)
+set(patch_hash     SHA256=fb7b322f83b435cecd377a4be306c0cb7a98ae4c860e82dc97303ea45c0527c3)
+set(base_url       https://snapshot.debian.org/archive/debian/20251027T145034Z/pool/main/p/pcre2/)
 
 option(USE_SYSTEM_PCRE2 "Use the system pcre2 if possible" ON)
 
