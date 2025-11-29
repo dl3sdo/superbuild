@@ -30,8 +30,8 @@
 set(version        10.47)
 set(download_hash  SHA256=c08ae2388ef333e8403e670ad70c0a11f1eed021fd88308d7e02f596fcd9dc16)
 set(patch_version  ${version}-2)
-set(patch_hash     SHA256=fb7b322f83b435cecd377a4be306c0cb7a98ae4c860e82dc97303ea45c0527c3)
-set(base_url       https://snapshot.debian.org/archive/debian/20251027T145034Z/pool/main/p/pcre2/)
+set(patch_hash     SHA256=ed26bcb10db0f8c97cba6cbbc2630bdfb38333d6918e2818835c233d03d30777)
+set(base_url       https://snapshot.debian.org/archive/debian/20251027T145034Z/pool/main/p/pcre2)
 
 option(USE_SYSTEM_PCRE2 "Use the system pcre2 if possible" ON)
 
